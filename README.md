@@ -12,6 +12,7 @@ The goal of the project is to develop a model that can predict the age of an aba
 his would allow researchers to estimate the abalone’s age without having to cut its shell and count the rings.
 
 ML Algorithm implemented - kNN
+Fine Tuning of HyperParameters done using GridSearchCV 
 
-Fine Tuning of HyperParameters done using GridSearchCV  
+
 ---------------------------------------------------------
