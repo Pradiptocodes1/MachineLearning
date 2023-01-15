@@ -31,4 +31,16 @@ ML algorithms implemented - Simple Linear Regression, Multiple Linear Regression
 
 Data taken from Canadian government archives.
 
-----------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+
+-------------------------
+Predicting the Chinese GDP 
+-------------------------
+We have the data for the chinese gdp over the years starting from 1960 to 2015. Looking at the data curve, lower, highly steep in the middle and then a bit decrease
+we observe that it shows a trend that can be easily fitted with a non-linear regression curve. The best beta1 and beta2 for the sigmoid function (beta 1 for the 
+curve steepness and beta 2 to slide the curve on the axis) are found using the curve_fit function using the scipy.optimize library. We get a very good fit with 
+almost best possible evaluation metrics(r2_score, MSE,MAD).
+
+ML algorithm implemented - Non-Linear Regression
+
+Data taken from IBM skills network database.
