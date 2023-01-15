@@ -44,6 +44,7 @@ almost best possible evaluation metrics(r2_score, MSE,MAD).
 ML algorithm implemented - Non-Linear Regression
 
 Data taken from IBM skills network database.
+
 -------------------------------------------------------------------------------------------------------------------
 
 -------------------------
