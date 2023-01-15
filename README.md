@@ -11,7 +11,7 @@ In the Abalone Dataset, you can find the age measurements of a large number of a
 The goal of the project is to develop a model that can predict the age of an abalone based purely on the other physical measurements. T
 his would allow researchers to estimate the abalone’s age without having to cut its shell and count the rings.
 
-ML Algorithm implemented - kNN
+ML Algorithm implemented - kNN <br>
 Fine Tuning of HyperParameters done using GridSearchCV 
 
 Data taken from uci repository.
