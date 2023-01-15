@@ -51,7 +51,7 @@ Data taken from IBM skills network database.
 Service Provider
 -------------------------
 A Telecommunications provider has segmented its customer base by service usage patterns, categorizing the customers into four groups. If demographic data can be used to predict group membership, the company can customize offers for individual prospective customers. It is a classification problem. That is, given the dataset, with predefined labels, we need to build a model to be used to predict class of a new or unknown case.
-This uses various data parameters like demographic data,region, age etc. to predict usage patterns.
+This uses various data parameters like demographic data,region, age etc. to predict usage patterns. Also analyzed different k values for the data
 
 The target field, called custcat, has four possible values that correspond to the four customer groups, as follows: 1- Basic Service 2- E-Service 3- Plus Service 4- Total Service We will build a classifier, to predict the class of unknown cases.
 
