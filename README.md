@@ -1,5 +1,5 @@
-Descriptions of Projetcs ----
-
+Descriptions of Projects ----
+-----------------------
 
 -----------------------
 Abalone Age Estimation
