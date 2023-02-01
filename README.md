@@ -71,3 +71,14 @@ Here, we notice that some of the independent parameters like BP have the paramet
 ML algorithm implemented - Decision Trees
 
 Data taken from IBM skills network database.
+
+-------------------------------------------------------------------------------------------------------------------
+
+-------------------------
+Cancer type Prediction
+-------------------------
+From this dataset we will be predicting the category of the cancer from a group of patients. It can be either category 2(benign) or category 4(malignant). For this we will first plot a small set of data on a graph and then will be using Support Vector Machines to segregate bbetween two distinct category of data. The kernel function we used here will be the rbf which maps data into higher dimension. Similar results can be achieved in terms of accuracy score and jaccard score in case of linear or sigmoidkernel function, with the sigmoid function giving a lot less jaccard score. We used a function which properly visualises the confusion matrix with the spectral colour gradient. 
+
+ML algorithm implemented - SVM
+
+Data taken for UCI Machine Learning Repository (Asuncion and Newman, 2007). Loaded from IBM Object storage.
