@@ -89,11 +89,7 @@ Data taken for UCI Machine Learning Repository (Asuncion and Newman, 2007). Load
 Telecommunications
 -------------------------
 Basically analyses the behaviour of customers in a company by looking at the churn data. This is a historical customer dataset where each row represents one customer. The data is relatively easy to understand. Here we used the Logistic Regression Algorithm witth the liblinear solver. Here we get the jaccard score of 0.70(approx) and a log loss value of 0.60. Also implemented 3 other solving methods, sag, saga and newton-cg, wherein all three gave the same log loss value of 0.61(approx).
-The dataset includes information about:
-Customers who left within the last month – the column is called Churn
-Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
-Customer account information – how long they had been a customer, contract, payment method, paperless billing, monthly charges, and total charges
-Demographic info about customers – gender, age range, and if they have partners and dependents
+We used a function which properly visualises the confusion matrix with the Blue colour gradient. 
 
 ML Algorithm implemented - Logistic Regression (solver - liblinear)
 
